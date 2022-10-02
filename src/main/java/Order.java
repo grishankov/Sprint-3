@@ -81,7 +81,7 @@ public class Order {
         this.colour = colour;
     }
 
-    public Order(String firstName, String lastName, String address, String phone, int rentTime, String deliveryDate, String comment, String[] colour) {
+    public Order(String firstName, String lastName, String address, String phone, int rentTime, String deliveryDate, String comment, String[] colour, String metroStation) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;

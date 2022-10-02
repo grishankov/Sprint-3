@@ -30,8 +30,4 @@ public class LoginKuryer {
     public static LoginKuryer from(Kuryer kuryer) {
         return new LoginKuryer(kuryer.getLogin(), kuryer.getPassword());
     }
-
-    public static LoginKuryer fromtwo(Kuryer kuryer) {
-        return new LoginKuryer(kuryer.getPassword());
-    }
 }

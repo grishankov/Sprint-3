@@ -38,11 +38,4 @@ public class OrdersList {
 
     public OrdersList(){
     }
-
-    public OrdersList(int courierId, String nearestStation, int limit, int page){
-        this.courierId = courierId;
-        this.nearestStation = nearestStation;
-        this.limit = limit;
-        this.page = page;
-    }
 }

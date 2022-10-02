@@ -39,12 +39,4 @@ public class Kuryer {
     public Kuryer(String login){
         this.login = login;
     }
-
-    public static Kuryer from(Kuryer kuryer) {
-        return new Kuryer(kuryer.getLogin(), kuryer.getPassword());
-    }
-
-    public static Kuryer fromTwo(Kuryer kuryer) {
-        return new Kuryer(kuryer.getLogin());
-    }
 }
