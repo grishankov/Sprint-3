@@ -33,7 +33,7 @@ public class OrderCreateTest {
 
     @Before
     public void setUp() {
-        order = new Order("Александр", "Гришанков", "Ростов-на-Дону, ул.Российская, д.2, кв.35", "Советское", 2, "11.04.2023", "harry up", colour);
+        order = new Order("Александр", "Гришанков", "Ростов-на-Дону, ул.Российская, д.2, кв.35", "+79185324868", 2, "11.04.2023", "harry up", colour, "Советское");
         orderRequest = new OrderRequest();
     }
     @Test

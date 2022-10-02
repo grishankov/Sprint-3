@@ -1,0 +1,7 @@
+KuryerCreateWithoutOneParametrTest.class
+KuryerLoginErrorTest.class
+OrderCreateTest.class
+OrderListTest.class
+KuryerLoginTwiceTest.class
+KuryerCreateTest.class
+KuryerLoginSuccessfullyTest.class
