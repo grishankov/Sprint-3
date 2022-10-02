@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: KuryerLoginErrorTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 62.609 s <<< FAILURE! - in KuryerLoginErrorTest
-kuryerLoginWithoutPassword(KuryerLoginErrorTest)  Time elapsed: 60.954 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 62.535 s <<< FAILURE! - in KuryerLoginErrorTest
+kuryerLoginWithoutPassword(KuryerLoginErrorTest)  Time elapsed: 60.917 s  <<< FAILURE!
 java.lang.AssertionError: Status code is invalid expected:<400> but was:<504>
-	at KuryerLoginErrorTest.kuryerLoginWithoutPassword(KuryerLoginErrorTest.java:36)
+	at KuryerLoginErrorTest.kuryerLoginWithoutPassword(KuryerLoginErrorTest.java:35)
 
