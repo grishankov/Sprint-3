@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: KuryerCreateWithoutOneParametrTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 4, Skipped: 0, Time elapsed: 7.689 s <<< FAILURE! - in KuryerCreateWithoutOneParametrTest
+kuryerCreateWithoutLogin(KuryerCreateWithoutOneParametrTest)  Time elapsed: 6.521 s  <<< ERROR!
+java.lang.NullPointerException
+	at KuryerCreateWithoutOneParametrTest.kuryerCreateWithoutLogin(KuryerCreateWithoutOneParametrTest.java:33)
+
+kuryerCreateWithoutLogin(KuryerCreateWithoutOneParametrTest)  Time elapsed: 6.527 s  <<< ERROR!
+java.lang.NullPointerException
+	at KuryerCreateWithoutOneParametrTest.kuryerDeleteAfter(KuryerCreateWithoutOneParametrTest.java:66)
+
+kuryerCreateWithoutPassword(KuryerCreateWithoutOneParametrTest)  Time elapsed: 0.493 s  <<< ERROR!
+java.lang.NullPointerException
+	at KuryerCreateWithoutOneParametrTest.kuryerCreateWithoutPassword(KuryerCreateWithoutOneParametrTest.java:45)
+
+kuryerCreateWithoutPassword(KuryerCreateWithoutOneParametrTest)  Time elapsed: 0.494 s  <<< ERROR!
+java.lang.NullPointerException
+	at KuryerCreateWithoutOneParametrTest.kuryerDeleteAfter(KuryerCreateWithoutOneParametrTest.java:66)
+
+kuryerCreateWithoutName(KuryerCreateWithoutOneParametrTest)  Time elapsed: 0.434 s  <<< FAILURE!
+java.lang.AssertionError: Status code is not 201 CREATED expected:<400> but was:<409>
+	at KuryerCreateWithoutOneParametrTest.kuryerCreateWithoutName(KuryerCreateWithoutOneParametrTest.java:56)
+
+kuryerCreateWithoutName(KuryerCreateWithoutOneParametrTest)  Time elapsed: 0.434 s  <<< FAILURE!
+java.lang.AssertionError: Status code is not 201 CREATED expected:<400> but was:<200>
+	at KuryerCreateWithoutOneParametrTest.kuryerDeleteAfter(KuryerCreateWithoutOneParametrTest.java:65)
+
